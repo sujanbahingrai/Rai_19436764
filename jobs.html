@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset ="utf-8">
+    <title>My First Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--media responsive linking-->
+    <link rel="stylesheet" type="text/css" href="jobs.css"><!--css styling link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--social media button linking-->
+</head>
+<body><!--body starts here-->
+<div class="header">
+  <a href="#default" class="logo">The SEA News</a><!--logo tag here-->
+  <div class="header-right"><!--header menu starts here-->
+    <a href="index.html">Landing</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="glossary.html">Glossary</a>
+    <a class="active" href="jobs.html">Jobs</a>
+    <a href="tutorials.html">Tutorials</a>
+    <input type="text" placeholder="Search.."><!--search box here-->
+  </div>
+</div>
+<!--section starts here-->
+ <section>
+    <div class="form">
+    <form name="nameform" action="click" onsubmit="returncheckForm(this)" method="post"><!--Form tag starts here-->
+        <fieldset>
+        <legend><b>Personal Information</b></legend><!--legend tag stars here-->
+        Username:<br>
+         <input type="text" name="firstname"><br>
+        Password:<br>
+         <input type="password" name="psw"><br><br>
+         Email:<br>
+         <input type="email" name="email" value="support@example.com"><br>
+         Retype Email:<br>
+         <input type="email" name="email"><br><br>
+         Enter your Experience:<br>
+         <input type="text" name="experience">
+         <br><br>
+         Enter your Qualification:<br>
+         <input type="text" name="qualification">
+         <br><br>
+         Phone no:<br>
+         <input type="number" name="num"><br><br><br>
+         <textarea name="message" rows="10" cols="60" ></textarea><br>
+         <input type="submit" value="Submit">
+         <input type="reset" value="Reset"><br><br>
+         </fieldset>
+    </form>
+</div>
+    <div class="sidebar">
+        <img src="one.png" alt="vacancy1"><!--https://www.jobsnepal.com/job/business-systems-junior-developer/114440-->
+        <img src="one2.png" alt="vacancy2"><!--https://www.jobsnepal.com/job/senior-asp-net-developer/114430-->
+        <img src="one3.png" alt="vacancy3"><!--https://www.jobsnepal.com/job/front-end-developer/114357-->
+    </div>
+ </section>
+ <footer><!--footer starts here-->
+    <!--social media links-->
+    <a href="#" class="fa fa-facebook-square fa-2x"></a>
+    <a href="#" class="fa fa-instagram fa-2x"></a>
+    <a href="#" class="fa fa-twitter fa-2x"></a>
+    <a href="#" class="fa fa-youtube fa-2x"></a>
+    </footer>
+</body>
+</html>
